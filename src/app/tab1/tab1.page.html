@@ -1,17 +1,65 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-buttons slot="start">
+      <!-- <ion-back-button defaultHref="home"></ion-back-button> -->
+      <ion-icon class="headerIcon" name="chevron-back-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title text-center>
+      Bread
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-item>
+    <ion-list>
+      <a class="headerTopIcon"
+        ><ion-icon name="menu-outline"></ion-icon> Sort</a
+      >
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <a class="headerTopIcon"
+        ><ion-icon name="options-outline"></ion-icon> Filter
+      </a>
+    </ion-list>
+  </ion-item>
+  <ion-row class="rowPadding">
+    <ion-col size="6" class="colPadding">
+      <a>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </a>
+      <img src="../../assets/bread.png" />
+      <strong>$6.65</strong>
+      <p class="subText">
+        Dave's Killer Bread 21 Whole Grains and Seeds Organic Bread
+      </p>
+    </ion-col>
+    <ion-col size="6" class="colPadding">
+      <a>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </a>
+      <img src="../../assets/bread.png" />
+      <strong>$3.89</strong>
+      <p class="subText">Sara Lee Artesano Golden Wheat Bakery Bread</p>
+    </ion-col>
+  </ion-row>
+  <ion-row class="rowPadding">
+    <ion-col size="6" class="colPadding">
+      <a>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </a>
+      <img src="../../assets/bread.png" />
+      <strong>$4.19</strong>
+      <p class="subText">
+        Dave's Killer Bread 21 Whole Grains and Seeds Organic Bread
+      </p>
+    </ion-col>
+    <ion-col size="6" class="colPadding">
+      <a>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </a>
+      <img src="../../assets/bread.png" />
+      <strong>$4.19</strong>
+      <p class="subText">Sara Lee Artesano Golden Wheat Bakery Bread</p>
+    </ion-col>
+  </ion-row>
 </ion-content>

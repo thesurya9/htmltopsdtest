@@ -1,0 +1,79 @@
+// .labelColor {
+//     color: #002261
+// }
+// ion-content {
+//     --ion-background-color: #5AB9A3;
+// }
+
+.welcome-card ion-img {
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+
+
+.noPadding {
+    --inner-padding-end: 0px;
+    --padding-start: 0px;
+}
+
+ion-content {
+    --ion-background-color: #7DB247;
+}
+
+.item-native {
+    border-width: none;
+    border-style: none;
+    border-color: none;
+}
+
+.getshipcostbtn {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item .item-content {
+    background-color: transparent !important;
+}
+
+ion-input {
+    margin-top: 10px;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+    height: 45px;
+    border-radius: 20px;
+    background-clip: padding-box;
+
+}
+
+.native-input.sc-ion-input-ios {
+    margin-left: 15px;
+}
+
+
+.item-label-stacked .sc-ion-input-md-h {
+    --padding-start: 10px;
+}
+
+ion-item {
+    --highlight-color-valid: transparent;
+    --highlight-color-invalid: transparent;
+    --highlight-color-focused: var(--ion-color-light);
+    --border-style: none;
+}
+
+.ionItem {
+    --padding-start: 0px;
+}
+
+ion-button {
+    --border-radius: 20px;
+    width: 150px;
+    height: 50px
+}
+
+.native-input.sc-ion-input-ios {
+    margin-left: 15px !important;
+}

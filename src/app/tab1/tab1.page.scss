@@ -1,0 +1,41 @@
+.headerIcon {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.rowPadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.colPadding {
+    position: relative;
+}
+
+.colPadding a {
+    float: right;
+    z-index: 1;
+    font-size: 30px;
+    position: absolute;
+    right: 0px;
+    color: #7CBA5D;
+}
+
+.headerTopIcon {
+    color: #7CBA5D;
+    font-size: 15px;
+    margin-right: 20px;
+    ;
+}
+
+.headerTopText {
+    color: #7CBA5D;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+
+.subText {
+    font-weight: 100;
+    font-size: 14px;
+}
